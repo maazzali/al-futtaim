@@ -1,0 +1,29 @@
+.navbar-container {
+  align-items: flex-end;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.search-bar {
+  position: relative;
+
+  &:hover {
+    input {
+      width: 100%;
+    }
+  }
+
+  input {
+    width: 40px;
+    height: 40px;
+    transition: all .5s;
+
+  }
+
+  img {
+    position: absolute;
+    right: 12px;
+    top: 12px;
+  }
+}
