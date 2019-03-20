@@ -1,6 +1,7 @@
 <div class="container">
-  <app-navbar></app-navbar>
+  <app-navbar (searchTextChange)="onTextChange($event)"></app-navbar>
   <main>
     <app-sign-in></app-sign-in>
+    <app-products [searchText]="changedText"></app-products>
   </main>
 </div>

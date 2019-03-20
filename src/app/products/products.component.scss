@@ -1,0 +1,28 @@
+.products-container {
+  border-top: 1px solid #f6f6f6;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  padding: 70px 0;
+
+  .product {
+    display: flex;
+    flex-direction: column;
+    height: 275px;
+    margin: 0 35px 35px 35px;
+    width: 220px;
+
+    .product-name {
+      color:  #414141;
+      font-size: 14px;
+      font-weight: 400;
+      margin-top: 15px;
+    }
+
+    .product-price {
+      color:  #000000;
+      font-size: 18px;
+      font-weight: 600;
+    }
+  }
+}
